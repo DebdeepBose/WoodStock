@@ -50,7 +50,7 @@ const CartItem = ({ id, name, price, amount, image }) => {
       <div className="flex flex-col ml-4 space-y-12 product-info sm:ml-8">
         <div className="self-end space-y-8">
           <div
-            className="text-2xl font-semibold text-red-500 duration-500 cursor-pointer hover:text-red-700"
+            className="text-2xl font-semibold text-accent-500 duration-500 cursor-pointer hover:text-accent-700"
             onClick={() => removeFromCart(id)}
           >
             <BsCartDashFill />

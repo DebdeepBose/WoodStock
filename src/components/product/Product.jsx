@@ -9,7 +9,7 @@ const Product = ({ id, name, price, image, description, category }) => {
   const product = { id, name, price, image };
   const { addItemToCart } = useAddtoCart(product);
   return (
-    <article className="max-w-sm mx-auto border rounded-md shadow-lg h-fit bg-gray-50 border-slate-300">
+    <article className="max-w-sm mx-auto overflow-hidden bg-white border shadow-sm h-fit rounded-2xl border-slate-200 duration-300 hover:shadow-xl hover:-translate-y-1">
       <figure className="relative flex flex-col space-y-3 overflow-hidden">
         <Link to={`/products/${id}`} className="overflow-hidden cursor-pointer">
           <img
@@ -23,14 +23,14 @@ const Product = ({ id, name, price, image, description, category }) => {
         </span>
         <WishIcon product={product} />
         <figcaption className="px-4 py-3 text-center">
-          <h2 className="mb-2 font-bold text-teal-600 capitalize">
+          <h2 className="mb-2 font-bold text-brand-600 capitalize">
             {name.substring(0, 25)}
           </h2>
 
           <p className="mb-4 text-sm text-gray-500">
             {description.substring(0, 50)}
           </p>
-          <span className="text-xl font-bold text-red-600">
+          <span className="text-xl font-bold text-slate-900">
             {formatPrice(price)}
           </span>
         </figcaption>
@@ -38,7 +38,7 @@ const Product = ({ id, name, price, image, description, category }) => {
       <div className="flex flex-col w-full pb-4 text-center">
         <button
           aria-label="add-to-cart-btn"
-          className="flex items-center px-4 py-2 mx-auto text-white duration-300 rounded-md outline-none cursor-pointer bg-main w-fit hover:to-teal-500"
+          className="flex items-center px-5 py-2 mx-auto text-white duration-300 rounded-full outline-none cursor-pointer bg-main w-fit hover:scale-105 hover:shadow-lg"
           onClick={() => addItemToCart(product)}
         >
           <FaCartPlus className="text-2xl" />

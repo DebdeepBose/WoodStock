@@ -7,7 +7,7 @@ const CartHeader = () => {
   const closeCart = useCartStore((state) => state.closeCart)
   const closeModal = useModalStore((state) => state.closeModal)
   return (
-    <header className="flex items-center justify-between px-4 pb-4 border-b-2 border-b-teal-600">
+    <header className="flex items-center justify-between px-4 pb-4 border-b-2 border-b-brand-600">
       <h2 className="px-6 py-2 text-sm text-center text-white capitalize rounded-md md:text-base bg-main w-fit">
         shopping cart ({items.length})
       </h2>

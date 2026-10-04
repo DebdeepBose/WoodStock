@@ -3,11 +3,11 @@ import Button from "./UI/Button";
 
 const Quote = () => {
   return (
-    <section className="relative py-48 text-white bg-fixed bg-teal-600 bg-center bg-cover rounded-md quote">
+    <section className="relative py-48 text-white bg-fixed bg-brand-600 bg-center bg-cover rounded-md quote">
       <Overlay>
         <article className="flex flex-col items-center justify-center mt-16 space-y-12 font-semibold sm:mt-32">
           <p className="w-3/4 text-4xl leading-tight tracking-wider text-center capitalize">
-            We <span className="text-teal-600">design</span> some beautiful
+            We <span className="text-brand-600">design</span> some beautiful
             furnitures
           </p>
           <Button title="get quote" />

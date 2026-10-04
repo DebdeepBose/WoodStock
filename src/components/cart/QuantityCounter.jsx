@@ -17,7 +17,7 @@ const QuantityCounter = ({ onIncreaseBtn, onDecreaseBtn }) => {
   return (
     <div className="flex items-center justify-center w-20 space-x-2 border border-gray-300">
       <div
-        className="text-red-400 duration-500 cursor-pointer hover:text-red-600"
+        className="text-accent-400 duration-500 cursor-pointer hover:text-accent-600"
         onClick={decrease}
       >
         -

@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
       <hr className="mx-4 my-6" />
       <p className="py-2 text-xs text-center capitalize text-slate-300 ">
-        © 2023 Made With Rabi for eductaional purposes
+        ©2026 Made By Debdeep
       </p>
     </footer>
   );

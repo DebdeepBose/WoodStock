@@ -15,6 +15,9 @@ const ProductDetailPage = () => {
       setIsLoading(true)
       const res = await fetch(`${single_product_url}${id}`)
       const data = await res.json()
+
+      data.price *= 3
+
       setSingleProduct(data)
       setIsLoading(false)
     } catch (error) {
@@ -28,7 +31,7 @@ const ProductDetailPage = () => {
 
   return (
     <Layout>
-      <Link to="/" className="px-4 py-2 ml-8 text-white bg-red-700 rounded-md">
+      <Link to="/" className="px-4 py-2 ml-8 text-white bg-accent-700 rounded-md">
         continue shopping
       </Link>
       <ProductDetails {...singleProduct} />

@@ -15,7 +15,7 @@ const CartIcon = () => {
           openModal();
         }}
       />
-      <span className="absolute z-10 flex items-center justify-center w-4 h-4 p-3 text-xs text-white bg-red-700 rounded-full -right-4 -top-2">
+      <span className="absolute z-10 flex items-center justify-center w-4 h-4 p-3 text-xs text-white bg-accent-700 rounded-full -right-4 -top-2">
         {itemsInCart.length}
       </span>
     </div>

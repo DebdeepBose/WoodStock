@@ -16,7 +16,7 @@ const Modal = () => {
           <p className="">Do you want to clear all the items in your cart?</p>
           <div className="flex justify-around mt-8 btn-container">
             <button
-              className="px-2 py-1 font-semibold text-teal-600 capitalize duration-700 border-2 border-teal-600 rounded-md p hover:bg-gradient-to-r from-cyan-700 to-teal-600 hover:text-white"
+              className="px-2 py-1 font-semibold text-brand-600 capitalize duration-700 border-2 border-brand-600 rounded-md p hover:bg-gradient-to-r from-brand-700 to-brand-600 hover:text-white"
               onClick={() => {
                 clearCart();
                 closeModal();
@@ -27,7 +27,7 @@ const Modal = () => {
               confirm
             </button>
             <button
-              className="px-2 py-1 font-semibold text-teal-600 capitalize duration-700 border-2 border-teal-600 rounded-md p hover:bg-gradient-to-r from-cyan-700 to-teal-600 hover:text-white"
+              className="px-2 py-1 font-semibold text-brand-600 capitalize duration-700 border-2 border-brand-600 rounded-md p hover:bg-gradient-to-r from-brand-700 to-brand-600 hover:text-white"
               onClick={() => {
                 closeConfirmation();
               }}

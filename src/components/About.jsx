@@ -14,20 +14,30 @@ const About = () => {
           alt="about us image"
         />
         <article className="flex-1 leading-loose">
+
           <p className="mb-2">
-            accusantium sapiente tempora sed dolore esse deserunt eaque
-            excepturi, delectus error accusamus vel eligendi, omnis beatae.
-            Quisquam, dicta. Eos quod quisquam esse recusandae vitae neque
-            dolore, obcaecati
+            We believe furniture is more than something you place inside a room. It
+            shapes the way you live, work, relax, and enjoy your space. Our goal is to
+            bring together thoughtfully designed furniture that combines comfort,
+            functionality, and timeless style.
           </p>
+
+          <p className="mb-2">
+            From everyday essentials to statement pieces, we offer a carefully
+            selected collection for different spaces and lifestyles. Whether you're
+            furnishing a new home, refreshing a room, or simply looking for that
+            perfect finishing touch, we make it easy to discover pieces that fit your
+            style.
+          </p>
+
           <p>
-            incidunt sequi blanditiis est exercitationem molestiae delectus
-            saepe odio eligendi modi porro eaque in libero minus unde sapiente
-            consectetur architecto. Ullam rerum, nemo iste ex, eaque
-            perspiciatis nisi, eum totam velit saepe sed quos similique amet.
-            Ex, voluptate accusamus nesciunt totam vitae esse iste.
+            We are committed to making furniture shopping simple, convenient, and
+            enjoyable. With a focus on quality design and a seamless shopping
+            experience, we help you create a space that feels comfortable, personal,
+            and truly yours.
           </p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+
+
         </article>
       </div>
     </>

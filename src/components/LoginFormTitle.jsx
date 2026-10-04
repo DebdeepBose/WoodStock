@@ -6,7 +6,7 @@ const LoginFormTitle = () => {
     <Link to="/">
       <div className="flex text-2xl items-center mb-12 space-x-2">
         <h3 className="font-semibold">Store</h3>
-        <FaShoppingCart className="text-teal-400 text-2xl" />
+        <FaShoppingCart className="text-brand-400 text-2xl" />
       </div>
     </Link>
   );

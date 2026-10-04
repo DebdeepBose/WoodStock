@@ -17,7 +17,7 @@ const ProductImages = ({ images = [[]] }) => {
               key={index}
               alt=""
               className={`cursor-pointer w-24 object-cover h-24 ${
-                mainImage.url === image.url ? `border-2 border-red-700` : null
+                mainImage.url === image.url ? `border-2 border-accent-700` : null
               }`}
               onClick={() => setMainImage(images[index])}
             />

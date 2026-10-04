@@ -31,7 +31,7 @@ const FilterProducts = ({
         <h2 className="text-center">Filter</h2>
         <span
           onClick={() => removeFilter()}
-          className="font-medium text-red-400 duration-200 cursor-pointer hover:text-red-600"
+          className="font-medium text-accent-400 duration-200 cursor-pointer hover:text-accent-600"
         >
           clear filters
         </span>

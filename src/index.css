@@ -7,7 +7,7 @@
 }
 @layer components{
     .modal-btn{
-    @apply  px-4 py-0.5 text-xl font-semibold text-center capitalize border-2 rounded-md duration-700 border-red-700 hover:text-white hover:bg-red-700 
+    @apply  px-4 py-0.5 text-xl font-semibold text-center capitalize border-2 rounded-md duration-700 border-accent-700 hover:text-white hover:bg-accent-700 
     }
     .section-layout{
     @apply py-6 md:py-12 px-1 md:px-3 lg:px-6 xl:px-24
@@ -15,12 +15,13 @@
  
 }
 body{
-    font-family: 'Poppins',sans-serif;
-    background-color: rgb(250 250 249);
+    font-family: 'Inter',sans-serif;
+    background-color: rgb(248 250 252);
+    color: rgb(15 23 42);
     
 }
  .horizontal-nav ul a.active{
-    @apply bg-gradient-to-r from-orange-600 to-pink-800
+    @apply bg-white/20
 }
 .nav-center{
     width: 90vw;
@@ -43,7 +44,7 @@ body{
      mask-image: linear-gradient(#000 90%, transparent); 
 }
 
-/* animations */
+
 
 @-webkit-keyframes bounceInDown {
     0% {
@@ -94,5 +95,5 @@ body{
 
 
 .bg-main{
-  @apply  bg-gradient-to-r from-cyan-700 to-teal-600
+  @apply bg-gradient-to-r from-brand-700 via-brand-600 to-sky-500 
 }

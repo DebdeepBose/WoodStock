@@ -4,7 +4,7 @@ const FormRow = ({ type, placeholder, label }) => {
       <label htmlFor={type}>{label}:</label>
       <input
         type={type}
-        className="p-4 duration-300 outline-teal-600 bg-slate-100"
+        className="p-4 duration-300 outline-brand-600 bg-slate-100"
         placeholder={placeholder}
       />
     </div>

@@ -5,7 +5,7 @@ const Sort = ({ tempProducts, handleSort, sort }) => {
     <>
       <section className="flex flex-col items-center justify-center mt-12 space-x-8 space-y-6 md:flex-row md:space-y-0">
         <p>{tempProducts.length} products found!</p>
-        <hr className="hidden w-64 bg-teal-700 md:block" />
+        <hr className="hidden w-64 bg-brand-700 md:block" />
         <form>
           <label htmlFor="sort">sort products by :</label>
           <select

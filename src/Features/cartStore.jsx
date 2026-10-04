@@ -6,7 +6,7 @@ const store = (set) => ({
   cartGrandTotal: 0,
   isCartOpen: false,
 
-  // working
+
   addToCart: (item) => {
     set((state) => {
       const existingProduct = state.items.some(
@@ -21,7 +21,7 @@ const store = (set) => ({
       return state;
     });
   },
-  // working
+
   clearCart: () =>
     set((state) => ({
       items: [],
@@ -33,7 +33,7 @@ const store = (set) => ({
         return item.id !== id;
       }),
     })),
-  // calculate total price of the cart
+  
   setCartGrandTotal: (price) =>
     set((state) => ({
       cartGrandTotal: price,
@@ -48,14 +48,14 @@ const store = (set) => ({
     set((set) => ({
       isCartOpen: true,
     })),
-      (document.body.style.overflow = "hidden"); // Disable scrolling on body
+      (document.body.style.overflow = "hidden"); 
   },
 
   closeCart: () => {
     set((set) => ({
       isCartOpen: false,
     })),
-      (document.body.style.overflow = ""); // Disable scrolling on body
+      (document.body.style.overflow = ""); 
   },
 });
 
